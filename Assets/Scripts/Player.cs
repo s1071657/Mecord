@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>(); //取得此角色的剛體物件
-  
+
     }
 
     void Update()

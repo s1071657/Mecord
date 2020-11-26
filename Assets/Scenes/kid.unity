@@ -1751,8 +1751,7 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 539721399}
-  selectedCommands:
-  - {fileID: 539721403}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -2188,7 +2187,15 @@ GameObject:
   - component: {fileID: 587137262}
   - component: {fileID: 587137261}
   - component: {fileID: 587137260}
+  - component: {fileID: 587137271}
+  - component: {fileID: 587137270}
+  - component: {fileID: 587137269}
+  - component: {fileID: 587137268}
+  - component: {fileID: 587137267}
+  - component: {fileID: 587137266}
+  - component: {fileID: 587137265}
   - component: {fileID: 587137264}
+  - component: {fileID: 587137263}
   - component: {fileID: 587137249}
   m_Layer: 0
   m_Name: Livintalk
@@ -2265,8 +2272,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 335
-    y: 42
+    x: 355.58737
+    y: -6.453602
     width: 66
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2278,6 +2285,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 587137225}
   - {fileID: 587137260}
+  - {fileID: 587137263}
   - {fileID: 587137249}
   suppressAllAutoSelections: 0
 --- !u!114 &587137228
@@ -2294,8 +2302,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 179
-    y: 45
+    x: 175.90721
+    y: -3.4536057
     width: 70
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2308,7 +2316,8 @@ MonoBehaviour:
   - {fileID: 587137226}
   - {fileID: 587137262}
   - {fileID: 587137261}
-  - {fileID: 587137264}
+  - {fileID: 587137271}
+  - {fileID: 587137270}
   suppressAllAutoSelections: 0
 --- !u!114 &587137229
 MonoBehaviour:
@@ -2855,18 +2864,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 587137224}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 34
+  itemId: 49
   indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 587137224}
-  activeState:
+  text: "\u6536\u4E0B\u7167\u7247"
+  description: 
+  targetBlock: {fileID: 587137266}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &587137250
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2979,8 +2992,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 255
-    y: -20
+    x: 261.1855
+    y: -68.45364
     width: 71
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3027,7 +3040,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 109, y: 146}
+  scrollPos: {x: -3.2008667, y: 65.03096}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 557
@@ -3038,10 +3051,8 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 587137254}
-  selectedCommands:
-  - {fileID: 587137250}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -3209,6 +3220,33 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &587137263
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587137224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 48
+  indentLevel: 0
+  storyText: "\u9019\u5E7E\u5F35\u6211\u5011\u4EE5\u524D\u7684\u7167\u7247\u5C31\u9001\u7D66MC\u5427"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &587137264
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3221,7 +3259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 33
+  itemId: 47
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
@@ -3230,6 +3268,173 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &587137265
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587137224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 46
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: bedroom
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &587137266
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587137224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 346.46375
+    y: 54.96904
+    width: 84
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 38
+  blockName: getC2
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 587137265}
+  - {fileID: 587137264}
+  suppressAllAutoSelections: 0
+--- !u!114 &587137267
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587137224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 41
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: bedroom
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &587137268
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587137224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 40
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 587137224}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &587137269
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587137224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 171.04121
+    y: 56.84532
+    width: 83
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 38
+  blockName: getC1
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 587137267}
+  - {fileID: 587137268}
+  suppressAllAutoSelections: 0
+--- !u!114 &587137270
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587137224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 37
+  indentLevel: 0
+  text: "\u597D\u597D\u6536\u8D77\u7167\u7247"
+  description: 
+  targetBlock: {fileID: 587137269}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &587137271
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587137224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 36
+  indentLevel: 0
+  storyText: "\u9019\u5F35\u7167\u7247\u662FMC\u525B\u51FA\u751F\u7684\u6642\u5019\u62CD\u7684\u54E6\uFF0C\u5982\u679CMC\u559C\u6B61\u7684\u8A71\u5C31\u9001\u7D66\u4F60\u4E86"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1001 &651172782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5196,7 +5401,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1140879754
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
