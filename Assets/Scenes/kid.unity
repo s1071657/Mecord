@@ -1914,9 +1914,8 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 587137254}
-  selectedCommands:
-  - {fileID: 587137243}
+  - {fileID: 587137269}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -2148,7 +2147,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: bedroom
+    stringVal: bedroom 1
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &587137266
@@ -2195,7 +2194,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: bedroom
+    stringVal: bedroom 1
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &587137268
@@ -2811,7 +2810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1140879748}
+  selectedFlowchart: {fileID: 587137255}
 --- !u!4 &1122174318
 Transform:
   m_ObjectHideFlags: 1
