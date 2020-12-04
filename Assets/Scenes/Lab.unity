@@ -1015,7 +1015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 206570867}
+  selectedFlowchart: {fileID: 7888231649305947992}
 --- !u!4 &270383061
 Transform:
   m_ObjectHideFlags: 1
@@ -4191,6 +4191,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 13400000, guid: cf63880488ec29f43a759ecd9c6c5123,
         type: 2}
+    - target: {fileID: 7888231650159768609, guid: 8862982d867b98e469a38f17bd092b00,
+        type: 3}
+      propertyPath: selectedCommands.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888231650159768616, guid: 8862982d867b98e469a38f17bd092b00,
+        type: 3}
+      propertyPath: _sceneName.stringVal
+      value: bedroom 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7888231650159768620, guid: 8862982d867b98e469a38f17bd092b00,
         type: 3}
       propertyPath: character
@@ -4203,3 +4213,15 @@ PrefabInstance:
       objectReference: {fileID: 1006530133}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8862982d867b98e469a38f17bd092b00, type: 3}
+--- !u!114 &7888231649305947992 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7888231650159768609, guid: 8862982d867b98e469a38f17bd092b00,
+    type: 3}
+  m_PrefabInstance: {fileID: 7888231649305947991}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
