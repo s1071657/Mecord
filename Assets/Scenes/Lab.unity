@@ -1158,7 +1158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1377080950}
+  selectedFlowchart: {fileID: 1390608403}
 --- !u!4 &270383061
 Transform:
   m_ObjectHideFlags: 1
@@ -4445,6 +4445,53 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1377080943}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1390608395 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1509629050579437921, guid: 8862982d867b98e469a38f17bd092b00,
+    type: 3}
+  m_PrefabInstance: {fileID: 7888231649305947991}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1390608397
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390608395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a98f5f89242e80d42865cdf1912beda3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1390608399}
+  suppressBlockAutoSelect: 0
+  tagFilter: []
+  FireOn: 1
+  colliderVar: {fileID: 0}
+--- !u!114 &1390608399 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7888231650159768621, guid: 8862982d867b98e469a38f17bd092b00,
+    type: 3}
+  m_PrefabInstance: {fileID: 7888231649305947991}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390608395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1390608403 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7888231650159768609, guid: 8862982d867b98e469a38f17bd092b00,
+    type: 3}
+  m_PrefabInstance: {fileID: 7888231649305947991}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390608395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1464938937
 GameObject:
   m_ObjectHideFlags: 0
@@ -6026,7 +6073,7 @@ PrefabInstance:
     - target: {fileID: 883246168252371876, guid: ae357cf716235a844969c89acdac46dd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21.965
+      value: -20.738
       objectReference: {fileID: 0}
     - target: {fileID: 883246168252371876, guid: ae357cf716235a844969c89acdac46dd,
         type: 3}
@@ -6491,17 +6538,17 @@ PrefabInstance:
     - target: {fileID: 7888231650159768619, guid: 8862982d867b98e469a38f17bd092b00,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.5
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 7888231650159768619, guid: 8862982d867b98e469a38f17bd092b00,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.5
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 7888231650159768619, guid: 8862982d867b98e469a38f17bd092b00,
         type: 3}
       propertyPath: m_Size.z
-      value: 0.5
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 7888231650159768620, guid: 8862982d867b98e469a38f17bd092b00,
         type: 3}
@@ -6513,6 +6560,11 @@ PrefabInstance:
       propertyPath: setSayDialog
       value: 
       objectReference: {fileID: 1006530133}
+    - target: {fileID: 7888231650159768621, guid: 8862982d867b98e469a38f17bd092b00,
+        type: 3}
+      propertyPath: eventHandler
+      value: 
+      objectReference: {fileID: 1390608397}
     m_RemovedComponents:
     - {fileID: 7888231648996602033, guid: 8862982d867b98e469a38f17bd092b00, type: 3}
     - {fileID: 7888231649164642609, guid: 8862982d867b98e469a38f17bd092b00, type: 3}
@@ -6552,4 +6604,6 @@ PrefabInstance:
     - {fileID: 7888231648996602040, guid: 8862982d867b98e469a38f17bd092b00, type: 3}
     - {fileID: 7888231649164642616, guid: 8862982d867b98e469a38f17bd092b00, type: 3}
     - {fileID: 7888231649792196456, guid: 8862982d867b98e469a38f17bd092b00, type: 3}
+    - {fileID: 589764073050490717, guid: 8862982d867b98e469a38f17bd092b00, type: 3}
+    - {fileID: 7888231650159768618, guid: 8862982d867b98e469a38f17bd092b00, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8862982d867b98e469a38f17bd092b00, type: 3}
