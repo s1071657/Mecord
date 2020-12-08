@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
     Rigidbody rb; //角色剛體
     [SerializeField] float MoveSpeed=2; //移動速度
-    [SerializeField] float RotateSpeed=3; //旋轉速度
+    [SerializeField] float RotateSpeed=15; //旋轉速度
     [SerializeField] float JumpPower=4000; //跳躍力量
     bool JumpAction = false; //是否在跳躍狀態
     public GameObject myNote;
