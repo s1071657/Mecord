@@ -825,7 +825,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 290.18198
     y: 70.0909
-    width: 71.36363
+    width: 111.36363
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -912,7 +912,7 @@ MonoBehaviour:
   storyText: "\u9019\u88E1\u662F ?........"
   description: 
   character: {fileID: 244199069}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 652dcf5cc4094f04b8ea357652591857, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1025,7 +1025,8 @@ MonoBehaviour:
   nameText: Mecord
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 652dcf5cc4094f04b8ea357652591857, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 1838487808}
   description: 
@@ -1158,7 +1159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 522661180}
+  selectedFlowchart: {fileID: 1181829001}
 --- !u!4 &270383061
 Transform:
   m_ObjectHideFlags: 1
@@ -1388,14 +1389,14 @@ RectTransform:
   m_GameObject: {fileID: 313625308}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.43, y: 2.43, z: 2.43}
   m_Children: []
   m_Father: {fileID: 866455763}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -178.5, y: 263.13}
+  m_AnchoredPosition: {x: -1650, y: 167}
   m_SizeDelta: {x: 357, y: 435}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &449544923
@@ -1881,7 +1882,7 @@ MonoBehaviour:
   storyText: "\u6C92\u4E8B\u7684"
   description: 
   character: {fileID: 244199069}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 652dcf5cc4094f04b8ea357652591857, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1972,7 +1973,7 @@ MonoBehaviour:
   storyText: "\u90A3\u4F60\u5F97\u793A\u7BC4\u4E00\u4E0B\uFF0C\u6211\u624D\u80FD\u77E5\u9053\u8FFD\u6C42\u4EBA\u751F\u7684\u4EBA\u662F\u751A\u9EBC\u6A23\u5B50\u3002"
   description: 
   character: {fileID: 244199069}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 652dcf5cc4094f04b8ea357652591857, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2026,7 +2027,7 @@ MonoBehaviour:
   storyText: "\u90A3\u4F60\u89BA\u5F97\u6211\u61C9\u8A72\u6210\u70BA\u4EC0\u9EBC\u6A23\u7684\u4EBA\uFF1F"
   description: 
   character: {fileID: 244199069}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 652dcf5cc4094f04b8ea357652591857, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2098,7 +2099,8 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 522661174}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 522661182}
   variables: []
   description: 
   stepPause: 0
@@ -2127,7 +2129,7 @@ MonoBehaviour:
   storyText: "\u4E0D\u662F\u6BCF\u500B\u4EBA\u90FD\u80FD\u5920\u627E\u5230\u9069\u5408\u81EA\u5DF1\u7684\u5DE5\u4F5C"
   description: 
   character: {fileID: 244199069}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 652dcf5cc4094f04b8ea357652591857, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2154,7 +2156,7 @@ MonoBehaviour:
   storyText: "\u6240\u4EE5\u4F60\u4E5F\u4E0D\u8981\u592A\u96E3\u904E"
   description: 
   character: {fileID: 244199069}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 652dcf5cc4094f04b8ea357652591857, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2181,7 +2183,7 @@ MonoBehaviour:
   storyText: "\u5176\u5BE6\u5728\u9019\u793E\u6703\u4E2D\u904E\u751F\u6D3B"
   description: 
   character: {fileID: 244199069}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 652dcf5cc4094f04b8ea357652591857, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2208,7 +2210,7 @@ MonoBehaviour:
   storyText: "\u5927\u591A\u6578\u6642\u5019\u90FD\u662F\u9019\u500B\u6A23\u5B50\u7684"
   description: 
   character: {fileID: 244199069}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 652dcf5cc4094f04b8ea357652591857, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4417,8 +4419,7 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 1377080949}
-  selectedCommands:
-  - {fileID: 1377080945}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -5226,7 +5227,7 @@ MonoBehaviour:
   storyText: "\u6211\u4E5F\u4E0D\u78BA\u5B9A\u6211\u662F\u600E\u9EBC\u60F3\u7684\uFF0C\u4F46\u6211\u7E3D\u89BA\u5F97\u4E0D\u6703\u662F\u9019\u6A23\u5B50"
   description: 
   character: {fileID: 244199069}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 652dcf5cc4094f04b8ea357652591857, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5277,8 +5278,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 357.5
-    y: 179
+    x: 358.5
+    y: 181
     width: 134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5335,8 +5336,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 345.5
-    y: 73
+    x: 346.5
+    y: 76
     width: 133
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5611,7 +5612,8 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 1812207334}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1812207332}
   variables: []
   description: 
   stepPause: 0
@@ -5752,7 +5754,7 @@ MonoBehaviour:
   storyText: {fileID: 1985957538}
   storyTextGO: {fileID: 0}
   characterImage: {fileID: 313625309}
-  fitTextWithImage: 1
+  fitTextWithImage: 0
   closeOtherDialogs: 0
 --- !u!114 &1838487809
 MonoBehaviour:
@@ -6585,6 +6587,16 @@ PrefabInstance:
       propertyPath: setSayDialog
       value: 
       objectReference: {fileID: 1006530133}
+    - target: {fileID: 7888231649030156945, guid: 8862982d867b98e469a38f17bd092b00,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 249.87628
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888231649030156945, guid: 8862982d867b98e469a38f17bd092b00,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 164.32988
+      objectReference: {fileID: 0}
     - target: {fileID: 7888231649030156946, guid: 8862982d867b98e469a38f17bd092b00,
         type: 3}
       propertyPath: character
@@ -6595,6 +6607,41 @@ PrefabInstance:
       propertyPath: setSayDialog
       value: 
       objectReference: {fileID: 1838487808}
+    - target: {fileID: 7888231649030156946, guid: 8862982d867b98e469a38f17bd092b00,
+        type: 3}
+      propertyPath: storyText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888231649030156947, guid: 8862982d867b98e469a38f17bd092b00,
+        type: 3}
+      propertyPath: selectedCommands.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888231649030156947, guid: 8862982d867b98e469a38f17bd092b00,
+        type: 3}
+      propertyPath: selectedBlocks.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888231649030156947, guid: 8862982d867b98e469a38f17bd092b00,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888231649030156947, guid: 8862982d867b98e469a38f17bd092b00,
+        type: 3}
+      propertyPath: scrollPos.x
+      value: 11.969059
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888231649030156947, guid: 8862982d867b98e469a38f17bd092b00,
+        type: 3}
+      propertyPath: scrollPos.y
+      value: 5.010302
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888231649030156947, guid: 8862982d867b98e469a38f17bd092b00,
+        type: 3}
+      propertyPath: zoom
+      value: 0.97
+      objectReference: {fileID: 0}
     - target: {fileID: 7888231649164642611, guid: 8862982d867b98e469a38f17bd092b00,
         type: 3}
       propertyPath: character
@@ -6705,6 +6752,11 @@ PrefabInstance:
       propertyPath: setSayDialog
       value: 
       objectReference: {fileID: 1006530133}
+    - target: {fileID: 7888231649438987132, guid: 8862982d867b98e469a38f17bd092b00,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7888231649792196456, guid: 8862982d867b98e469a38f17bd092b00,
         type: 3}
       propertyPath: selectedBlocks.Array.size
@@ -6862,6 +6914,9 @@ PrefabInstance:
     - {fileID: 7888231649792196456, guid: 8862982d867b98e469a38f17bd092b00, type: 3}
     - {fileID: 589764073050490717, guid: 8862982d867b98e469a38f17bd092b00, type: 3}
     - {fileID: 7888231650159768618, guid: 8862982d867b98e469a38f17bd092b00, type: 3}
+    - {fileID: 7888231649030156946, guid: 8862982d867b98e469a38f17bd092b00, type: 3}
+    - {fileID: 7888231649030156944, guid: 8862982d867b98e469a38f17bd092b00, type: 3}
+    - {fileID: 7888231649030156945, guid: 8862982d867b98e469a38f17bd092b00, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8862982d867b98e469a38f17bd092b00, type: 3}
 --- !u!114 &7888231649305947992 stripped
 MonoBehaviour:

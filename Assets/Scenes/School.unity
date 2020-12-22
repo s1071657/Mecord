@@ -510,14 +510,14 @@ RectTransform:
   m_GameObject: {fileID: 162292794}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.43, y: 2.43, z: 2.43}
   m_Children: []
   m_Father: {fileID: 1288732017}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -178.5, y: 263.13}
+  m_AnchoredPosition: {x: -1611, y: 175}
   m_SizeDelta: {x: 357, y: 435}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &162292796
@@ -736,7 +736,7 @@ MonoBehaviour:
   storyText: "\uFF08\u9EDE\u982D\uFF09"
   description: 
   character: {fileID: 1948589653}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 652dcf5cc4094f04b8ea357652591857, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1087,7 +1087,7 @@ MonoBehaviour:
   storyText: "\uFF08\u9EDE\u982D\uFF09"
   description: 
   character: {fileID: 1948589653}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 652dcf5cc4094f04b8ea357652591857, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1263,7 +1263,7 @@ MonoBehaviour:
   storyText: "\u6069\uFF0C\u662F\u5148\u4E09\u9846\u4E09\u9846\u6BD4\u8F03\uFF0C\u904B\u6C23\u597D\u5269\u4E0B\u7684\u4E00\u9846\u5C31\u662F\u6700\u91CD"
   description: 
   character: {fileID: 1948589653}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 652dcf5cc4094f04b8ea357652591857, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1290,7 +1290,7 @@ MonoBehaviour:
   storyText: "\u5982\u679C\u4E0D\u662F\u7684\u8A71\uFF0C\u6BD4\u8F03\u91CD\u7684\u4E09\u9846\u7576\u4E2D\u6293\u5169\u9846\u51FA\u4F86\u6BD4\u8F03\u5C31\u6709\u7B54\u6848\u4E86"
   description: 
   character: {fileID: 1948589653}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 652dcf5cc4094f04b8ea357652591857, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1384,8 +1384,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 325991958}
-  selectedCommands: []
+  - {fileID: 325991951}
+  selectedCommands:
+  - {fileID: 325991936}
   variables: []
   description: 
   stepPause: 0
@@ -2096,7 +2097,7 @@ MonoBehaviour:
   storyText: {fileID: 6716308}
   storyTextGO: {fileID: 0}
   characterImage: {fileID: 162292797}
-  fitTextWithImage: 1
+  fitTextWithImage: 0
   closeOtherDialogs: 0
 --- !u!114 &446468343
 MonoBehaviour:
@@ -3032,7 +3033,7 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 591179654}
+  - {fileID: 591179663}
   selectedCommands: []
   variables: []
   description: 
@@ -6006,7 +6007,8 @@ MonoBehaviour:
   nameText: Mecord
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 652dcf5cc4094f04b8ea357652591857, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 446468342}
   description: 
@@ -6578,6 +6580,12 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 1948589653}
+    - target: {fileID: 77993252154715718, guid: 8be5c34f611e5b14989f0c62b4d62388,
+        type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 652dcf5cc4094f04b8ea357652591857,
+        type: 3}
     - target: {fileID: 77993252154715719, guid: 8be5c34f611e5b14989f0c62b4d62388,
         type: 3}
       propertyPath: character
@@ -6648,6 +6656,12 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 1948589653}
+    - target: {fileID: 77993252154715732, guid: 8be5c34f611e5b14989f0c62b4d62388,
+        type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 652dcf5cc4094f04b8ea357652591857,
+        type: 3}
     - target: {fileID: 77993252154715733, guid: 8be5c34f611e5b14989f0c62b4d62388,
         type: 3}
       propertyPath: character
@@ -6658,6 +6672,12 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 1948589653}
+    - target: {fileID: 77993252154715734, guid: 8be5c34f611e5b14989f0c62b4d62388,
+        type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 652dcf5cc4094f04b8ea357652591857,
+        type: 3}
     - target: {fileID: 77993252154715735, guid: 8be5c34f611e5b14989f0c62b4d62388,
         type: 3}
       propertyPath: character
@@ -6809,7 +6829,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.4
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
