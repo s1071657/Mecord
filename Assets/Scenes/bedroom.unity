@@ -903,7 +903,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Mecord
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 652dcf5cc4094f04b8ea357652591857, type: 3}
@@ -1766,6 +1766,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1030312060193430382, guid: 50f11f4cd06ea2c48ac53924f0a8e0e9,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030312060193430382, guid: 50f11f4cd06ea2c48ac53924f0a8e0e9,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030312060193430382, guid: 50f11f4cd06ea2c48ac53924f0a8e0e9,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030312060251862742, guid: 50f11f4cd06ea2c48ac53924f0a8e0e9,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030312060251862742, guid: 50f11f4cd06ea2c48ac53924f0a8e0e9,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030312060251862742, guid: 50f11f4cd06ea2c48ac53924f0a8e0e9,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1030312061013930887, guid: 50f11f4cd06ea2c48ac53924f0a8e0e9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5403,7 +5433,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 303
     y: 91
-    width: 60
+    width: 100
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
