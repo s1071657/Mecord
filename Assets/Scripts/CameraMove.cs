@@ -12,9 +12,11 @@ public class CameraMove : MonoBehaviour
 
     void Update()
     {
-        float y = Input.GetAxis("Mouse Y");
+        if (!Player.isTalking) {
+            float y = Input.GetAxis("Mouse Y");
 
-        transform.Rotate(y * RotateSpeed*-1, 0, 0); //角色旋轉
+            transform.Rotate(y * RotateSpeed * -1, 0, 0); //角色旋轉
+        }
     }
 }
 

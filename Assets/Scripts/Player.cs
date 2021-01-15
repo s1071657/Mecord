@@ -1,13 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Fungus;
 
 public class Player : MonoBehaviour
 {
+    public static Flowchart flowchartManager;
     Rigidbody rb; //角色剛體
-    [SerializeField] float MoveSpeed=2; //移動速度
-    [SerializeField] float RotateSpeed=15; //旋轉速度
-    [SerializeField] float JumpPower=4000; //跳躍力量
+    [SerializeField] float MoveSpeed = 2; //移動速度
+    [SerializeField] float RotateSpeed = 15; //旋轉速度
+    [SerializeField] float JumpPower = 4000; //跳躍力量
     bool JumpAction = false; //是否在跳躍狀態
     public GameObject myNote;
     bool isOpen;
@@ -15,19 +17,29 @@ public class Player : MonoBehaviour
     bool canMove = true;
     [SerializeField] private float timeHit = 0f;
 
+    private void Awake()
+    {
+        flowchartManager = GameObject.Find("talkManager").GetComponent<Flowchart>();
+    }
     void Start()
     {
         rb = GetComponent<Rigidbody>(); //取得此角色的剛體物件
 
     }
-
-    void Update()
+    public static bool isTalking
     {
-        OpenMyNote();
-        PlayerMove();                     
+        get { return flowchartManager.GetBooleanVariable("talk"); }
     }
+
+    void Update() {
+        OpenMyNote();
+        PlayerMove();
+    }
+        
+
+    
     void PlayerMove() {
-        if (canMove) {
+        if (!isTalking) {
             float h = Input.GetAxis("Horizontal");   //取得輸入器的水平軸值(角色轉左/轉右)
             float v = Input.GetAxis("Vertical");     //取得輸入器的垂直軸值(角色前進/後退)
             float x = Input.GetAxis("Mouse X");
@@ -59,13 +71,5 @@ public class Player : MonoBehaviour
             isOpen = !isOpen;
             myNote.SetActive(isOpen);
         }
-    }
-
-    void CanNotMove() {
-        canMove = false;
-    }
-    void CanMove()
-    {
-        canMove = true;
     }
 }
