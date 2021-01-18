@@ -781,9 +781,8 @@ GameObject:
   - component: {fileID: 325991934}
   - component: {fileID: 325991964}
   - component: {fileID: 325991968}
-  - component: {fileID: 325991967}
-  - component: {fileID: 325991966}
   - component: {fileID: 325991965}
+  - component: {fileID: 325991966}
   m_Layer: 0
   m_Name: TelAns
   m_TagString: Untagged
@@ -1267,7 +1266,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 325991966}
   - {fileID: 325991950}
   - {fileID: 325991949}
   - {fileID: 325991947}
@@ -1284,6 +1282,7 @@ MonoBehaviour:
   - {fileID: 325991937}
   - {fileID: 325991936}
   - {fileID: 325991935}
+  - {fileID: 325991966}
   - {fileID: 325991965}
   - {fileID: 325991934}
   suppressAllAutoSelections: 0
@@ -1479,7 +1478,6 @@ MonoBehaviour:
   - {fileID: 325991954}
   - {fileID: 325991953}
   - {fileID: 325991952}
-  - {fileID: 325991967}
   suppressAllAutoSelections: 0
 --- !u!114 &325991959
 MonoBehaviour:
@@ -1508,7 +1506,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 325991951}
   selectedCommands:
-  - {fileID: 325991965}
+  - {fileID: 325991966}
   variables: []
   description: 
   stepPause: 0
@@ -1613,7 +1611,7 @@ MonoBehaviour:
   colliderVar: {fileID: 0}
 --- !u!114 &325991965
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1641,42 +1639,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 325991933}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 29
+  itemId: 31
   indentLevel: 0
-  targetFlowchart: {fileID: 971773797}
-  targetBlock: {fileID: 971773796}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 1
---- !u!114 &325991967
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 325991933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 28
-  indentLevel: 0
-  targetFlowchart: {fileID: 971773797}
-  targetBlock: {fileID: 971773795}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 1
+  soundClip: {fileID: 8300000, guid: be122d5e134d8fb46a8f0d559bf85f08, type: 3}
+  volume: 0.311
+  waitUntilFinished: 0
 --- !u!114 &325991968
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5944,7 +5917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 591179674}
+  selectedFlowchart: {fileID: 325991959}
 --- !u!4 &1582000322
 Transform:
   m_ObjectHideFlags: 1
